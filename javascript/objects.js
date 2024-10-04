@@ -33,5 +33,22 @@ const jsUser = {
 // console.log(user);
 
 
+const course = {
+    courseName : "Java Script In Hindi",
+    price : "999",
+    courseInstrutore:"Megha",
+}
+
+// course.courseInstrutore
+
+
+// destructoring 
+const {courseInstrutore: instructor} = course 
+console.log(instructor);
+
+
+// what is API 
+
+
 
 

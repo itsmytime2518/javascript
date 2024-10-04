@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: chocolate;
+}
+
+.bodycolore{
+    width: 50%;
+    border: solid #fefffe 10px;
+    height: 50%;
+    margin-inline: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+    padding: 5PX;
+    color: #02025e;
+}

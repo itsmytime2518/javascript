@@ -12,7 +12,3 @@ const gameName01 = gameName
 // console.log(gameName01.trim());
 
 console.log(gameName01);
-
-
-
-

@@ -12,15 +12,13 @@
 // console.log("apna college");
 
 
-// function myloop() {
-//     for (let index = 1; index <= 5; index++) {
-//         const element = index;
-//         console.log(element);
-        
-//     }
+// let clg = "Apna College"
 
-//     return "loop complete";
-
+// for (let index = 0; index < 10; index++) {
+//     const element = index;
+//     console.log( element,clg,);
+    
+    
 // }
 
 
@@ -66,7 +64,8 @@
 // let i = 0
 
 // while (i <= 5) {
-//     console.log('i for while loop = ', i++);
+//     console.log('i for while loop =', i++);
+    
 
 // }
 
@@ -135,9 +134,9 @@
 
 // 
 
-let game = 25
+// let game = 25
 
-let userNumber =  prompt ("Guess the game number: ")
+// let userNumber =  prompt ("Guess the game number: ")
 
 // while (userNumber != game )
 //      {
@@ -166,3 +165,44 @@ let userNumber =  prompt ("Guess the game number: ")
 
 
 
+// let sum = 0
+
+// for ( let i = 0; i <10; i++){
+//     console.log( "college", );
+    
+
+    //  sum = sum + i
+// }
+
+// let sum1 =  sum;
+
+// console.log(sum1);
+
+
+
+
+// let sum = 0;
+
+// for (let i = 0; i <= 10; i++) {
+//     sum = sum + i;
+// }
+
+// let sum1 = sum;
+
+// console.log(sum1);
+
+
+
+
+
+
+
+// const sum = "heuueffj fkjkffjhf hghg hkhkdhkfekejfhfjh fgkjg g hh fj jduhghhghjghn  gkkgjkfjg  fjgkfjk  kgfhgjkhkjg hkfghkf kkjfgjf hkg k"
+
+// for (let i = 0; i < sum.length ; i++) {
+//     const element = sum;i;
+    
+//     console.log(element.toLocaleUpperCase());
+    
+    
+// }

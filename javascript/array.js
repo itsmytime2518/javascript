@@ -20,23 +20,20 @@
 
 // let myArr = ["thor", "tony stark", "Iron Man", "Hulk", 551, 'flash']
 
-// console.log("A",myArr);
+// for (let i = 0; i < myArr.length; i++) {
+//     const element = myArr[i];
+//     console.log(element);
+    
+    
+// }
 
-// const myn1 = myArr.slice(1,3)
-
-// console.log(myn1);
-// console.log("B",myArr);
-
-
-// const myn2 = myArr.splice(1,2)
-// console.log("c" , myn2);
-
+const array = [45,85,78,65,25,22,31,20,3,96,87]
+let total = 0
 
 
-
-
-
-
-
-
-
+for (let i = 0; i < array.length; i++) {
+    total = total+ array [i];
+    
+}
+let sumtotal = total
+console.log('total sum = ', sumtotal);

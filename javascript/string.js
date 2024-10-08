@@ -27,12 +27,12 @@
 
 // **************************username="***********************"
 
-const fullname = prompt("Enter username");
+// const fullname = prompt("Enter username");
 
-let randomNum = Math.floor(Math.random() * 1000);
+// let randomNum = Math.floor(Math.random() * 1000);
 
-let username = "@" + fullname + randomNum;
+// let username = "@" + fullname + randomNum;
 
-console.log(username);
+// console.log(username);
 
 

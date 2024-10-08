@@ -27,13 +27,34 @@
     
 // }
 
-const array = [45,85,78,65,25,22,31,20,3,96,87]
-let total = 0
+// *****************Avrage marks kese nikaal skte hai?*******************
+
+// const array = [45,85,78,65,25,22,31,20,3,96,87]
+// let total = 0
 
 
-for (let i = 0; i < array.length; i++) {
-    total = total+ array [i];
+// for (let i = 0; i < array.length; i++) {
+//     total = total+ array [i];
     
-}
-let sumtotal = total
-console.log('total sum = ', sumtotal);
+// }
+// console.log("total marks = ", total);
+
+// let avrg = total / array.length
+// console.log('Avrage of marks = ', avrg, 'this is last result');
+
+
+
+
+
+// ******************array ke index value mai se % km krna***************** 
+
+
+// let array = [250, 645, 300, 900, 50];
+// let percent = 10;
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i]; // वर्तमान एलिमेंट
+//     const reduction = (percent / 100) * element; // 10% निकालें
+//     const newValue = element - reduction; // नया मान
+//     console.log(`Original value: ${element}, After reducing 10%: ${newValue}`); // प्रिंट करें
+// }

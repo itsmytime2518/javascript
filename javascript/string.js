@@ -13,4 +13,26 @@
 
 // console.log(gameName01);
 
+// let personDetail = "Hello my name is slaudin ali"
+
+// personDetail = personDetail.replaceAll("m", "kk")
+// console.log(personDetail);
+
+
+// const fullname = prompt("Enter username")
+
+// let username = "@" + fullname + fullname.length + ;
+
+// console.log(username);
+
+// **************************username="***********************"
+
+const fullname = prompt("Enter username");
+
+let randomNum = Math.floor(Math.random() * 1000);
+
+let username = "@" + fullname + randomNum;
+
+console.log(username);
+
 

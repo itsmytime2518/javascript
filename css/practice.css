@@ -18,3 +18,21 @@ body{
     padding: 5PX;
     color: #02025e;
 }
+
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: bisque;
+}
+
+li{
+list-style: none;
+}
+

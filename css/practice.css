@@ -36,3 +36,22 @@ li{
 list-style: none;
 }
 
+
+.heading1,h4,p{
+    padding: 5px;
+    margin: 10px;
+    background-color: #02025e;
+    color: aliceblue;
+    width: 50%;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    width: 250px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 5px 10px 10px;
+    border-radius: 10px;
+}

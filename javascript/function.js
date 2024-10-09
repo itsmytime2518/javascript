@@ -6,12 +6,43 @@
 //     console.log("A");
 // }
 
-// saymyname()
 
-// function addTwonumber(number1,number2){
-//     console.log(number1 + number2);
-     
+// let one = 52, two = 66;
+// addTwonumber(one,two)
+
+
+// function addTwonumber(a,b){
+//       let result = a + b;
+//       return result
 // }
+// console.log(result);
+
+
+// function calculateExpression(arr) {
+//     let total = 0;
+    
+    // Loop through the array
+    // for (let i = 0; i < arr.length; i++) {
+        // let num = arr[i];
+        
+        // BODMAS ke rule ke hisaab se expression calculate karte hain
+        // total += (num * 2 + 10) / (num - 1);  // Brackets pehle, phir multiplication/division, phir addition/subtraction
+    // }
+    
+    // return total;  // Final result ko return karte hain
+// }
+
+
+// let numbers = [5, 10, 15];
+// let result = calculateExpression(numbers);
+// console.log(result);
+
+
+
+
+
+
+
 
 // const result = number1 + number2
 
@@ -123,10 +154,33 @@
 // console.log("lenght is "+ submit.length );
 
 
+// let car = {
+//     brand: "Toyota",
+//     model: "Camry",
+//     year: 2021,
+//     getDetails: function() {  // Function (method) ko define kar rahe hain
+//         return `${this.brand} ${this.model} (${this.year})`;  // 'this' se object ki properties access kar rahe hain
+//     }
+// };
+
+// // Method ko call karna
+// let details = car.getDetails();
+// console.log(details);  // Output: Toyota Camry (2021)
 
 
+function calculationSum(arr) {
+
+    let total = 0
+    for (let i = 0; i < arr.length; i++) {
+        total = total + arr[i];
+    }
+    
+    return total
+}
 
 
-
+let sum = [55,95,54,85,78,8895,5512,120,]
+let result = calculationSum(sum)
+console.log( `this is subtotal for my array = `,result , 'final');
 
 

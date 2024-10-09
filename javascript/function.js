@@ -173,14 +173,20 @@ function calculationSum(arr) {
     let total = 0
     for (let i = 0; i < arr.length; i++) {
         total = total + arr[i];
+        
     }
-    
     return total
+    
+  
 }
 
 
 let sum = [55,95,54,85,78,8895,5512,120,]
 let result = calculationSum(sum)
 console.log( `this is subtotal for my array = `,result , 'final');
+
+
+
+
 
 

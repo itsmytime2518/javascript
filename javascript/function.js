@@ -182,7 +182,9 @@ function calculationSum(arr) {
 
 
 let sum = [55,95,54,85,78,8895,5512,120,]
+
 let result = calculationSum(sum)
+
 console.log( `this is subtotal for my array = `,result , 'final');
 
 

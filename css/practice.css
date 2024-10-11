@@ -58,5 +58,35 @@ list-style: none;
 
 .div2{
     color: #ffffff;
+}
 
+.box-1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid #f5fff5;
+    background-color: #02025e;
+    color: #fefffe;
+    margin: 50px;
+
+}
+
+.headingId{
+    background-color: aqua;
+}
+
+#pera1{
+    color: aqua;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-inline: auto;
+}
+
+#heading3{
+    text-align: center;
+    color: yellow;
+    font-size: 3rem;
+}
+
+.firstDiv{
+    background-color: #02025e;
 }

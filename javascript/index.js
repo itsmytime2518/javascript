@@ -27,4 +27,28 @@ p.addEventListener("mouseover", function() {
  p.addEventListener("mouseout",function(){
     p.style.color = "green";
 });
+
+
+let section = document.createElement("section")
+
+section.textContent= "hello js world"
+
+document.body.append(section);
+
+section.setAttribute("class","section1");
+
+
  
+
+
+// let age = prompt(0);
+
+
+// if (age === 14) {
+//    alert("You are not eligible");
+// } else if (age > 14) {
+//    alert("You are just eligible");
+// } else {
+//    alert("You are eligible");
+// }
+
